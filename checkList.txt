@@ -1,0 +1,14 @@
+1. Create Helper function to take input and nonce and return hashed value
+    (Input:- s1, s2, e1, e2) (start and end coordinates of a ship)
+2. Create two grids of 10x10
+3. Create form having input for each ship
+4. Show the ships on the grid.
+    I.1. If it's your turn select a point on target grid.
+    I.2. A button appears to confirm whether it's a hit or not? - "Is it a Hit?"
+    I.3. Now, it's your opponent's turn.
+
+    II.1 If it's not your turn, busy wait for opponent's input.
+    II.2 On receiving the opponent's input, a button appears to confirm whether it's a hit or not?
+    II.3 Now, it's your turn.
+
+5. When the game has ended. Ask for input to claim reward.
